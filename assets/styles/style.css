@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       max-width: 100%;
+       width: 100%;
+       padding: 0;
+   }
+}
+
+body{
+	font-family: 'Quicksand',sans-serif;
+}
+
+h2, h3{
+	color: #00a2c6;
+}
+
+footer{
+	padding: 20px;
+	color: white;
+	background-color: #00a2c6;
+}
+header{
+	display: inline;
+}
+nav{
+	background-color: #00a2c6;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+nav a{
+	font-size: 25px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	font-weight: bold;
+}
+
+footer{
+	padding: 20px;
+	color: white;
+	background-color: #00a2c6;
+	text-align: center;
+	font-weight: bold;
+}
+
+.featured-image{
+	width: 100%;
+	max-width: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.profile img{
+	width: 200px;
+}
+
+.profile{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.gambar{
+	width: 100%;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+nav li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+nav{
+	background-color: #00a2c6; 
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	padding: 20px;
+	overflow: auto;
+}
+
+#content{
+	float: left;
+	width: 75%;
+}
+
+aside{
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.centerWelcomeh1{
+	position: absolute;
+	bottom: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	display: inline;
+	font-size: 400%;
+}
+
+.centerWelcomep{
+	position: absolute;
+	bottom: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	display: inline;
+	font-size: 150%;
+	color: white;
+	
+
+}
+
+.aboutMe{
+	padding-left: 20%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #white;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #00a2c6;
+  font-weight: bold;
+}
+
+.mainNav {
+  margin-left: 200px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+table{
+	border: 1px solid black;
+ 	overflow-x:auto
+}
+
+td, th{
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 600px;
+  background-color: pink;
+}
+
+#section2 {
+  height: 600px;
+  background-color: yellow;
+}
+
+.gaya{
+
+ 	border: none;
+ 	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow-x:auto
+}
+}
